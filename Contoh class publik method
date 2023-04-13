@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+
+class Mahasiswa{
+public:
+    string nama, npm;
+    void Perkenalan(){ 
+    cout<< "Npm: " << npm;
+    cout<< "Nama: " << nama << endl;
+    };
+    
+int main(){
+Mahasiswa Mhs;
+
+cin>> Mhs.nama >> Mhs.npm;
+
+Mhs.Perkenalan();
+}
