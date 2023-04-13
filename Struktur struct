@@ -1,0 +1,10 @@
+struct nama_struct
+{
+<tipe_data> nama_field_1;
+
+<tipe_data> nama_field_2;
+
+... 
+
+<tipe_data> nama_field_n;
+}
